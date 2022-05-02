@@ -1,0 +1,30 @@
+{
+  "name": "unpack-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "babel-hint": "node client/dist/lib/react-babel-hint.js",
+    "react-babel": "echo 'this script, defined in package.json, needs to be replaced'",
+    "react-webpack": "webpack --watch",
+    "start": "nodemon server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "chalk": "^4.1.2",
+    "css-loader": "^6.7.1",
+    "express": "^4.17.3",
+    "react": "^16.4",
+    "react-dom": "^16.4",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

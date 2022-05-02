@@ -1,0 +1,18 @@
+/*
+You'll need to add the following 2 string values
+inside the presets array:
+
+1. "@babel/preset-env"
+2. "@babel/preset-react"
+
+babel will use these (they are already npm installed via package.json)
+*/
+
+{
+  "presets": []
+}
+
+// After you get these values set, type "control-c" in the
+// terminal running the webpack command, and re-run the "npm run react-webpack" command.
+// NEXT: if you don't see any errors, head to "client/dist/index.html" and find "WEBPACK TODO".
+

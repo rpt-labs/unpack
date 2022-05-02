@@ -1,0 +1,77 @@
+<!-- You made it! Welcome to client/dist/index.
+  This is the static asset that is served by the server as a response to the browser's initial request to "/" which by default will request "/index.html".
+
+  Review the structure of this file and then,
+  NEXT: follow the "BABEL TODO" steps below
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="basic.css">
+  <title>Unpack</title>
+
+  <!-- NOTE, we're not going to do anything with the bundle.js script below, until we get to the webpack step. You'll be coming back here later. -->
+
+  <!-- WEBPACK TODO -->
+  <!-- When you are redirected back here, uncomment the following script tag.
+       Notice there is only one file you need to load. Webpack created a "dependency graph" and
+       bundled everything into that single file!
+  -->
+
+  <!-- <script defer src="bundle.js"></script> -->
+
+</head>
+
+<body>
+
+  <div class="boilerplate-babel">
+    <div id="babel-inner">
+      <div class="shaded">
+        OF NOTICE: This is hard coded into to the index.html file.<br>
+        There is no dynamic content yet, nor any react components rendered to the page.<br><br>
+        Your first goal is to use Babel to compile some React code, and render in to the page in this space.<br>
+        When the code is properly compiled, ReactDOM.render will <i>replace</i> the text in this div<br>
+        with the rendered React component tree.<br><br>
+        NEXT: check out client/dist/index.html for next steps.
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BABEL TODO start -->
+  <!--
+    Check out the script tags below.
+    Notice that we are already loading react and react-dom with script tags.
+    Both are available in the global scope.
+
+    The browser can't understand our react code in "/client/babel-src" because it includes JSX.
+    Babel is a tool that will trasform (referred to as 'transpile') the code into javascript
+    that the browser can parse and run.
+
+    Next, uncomment the 2 script tags for the react components below,
+    then open your developer console in your browser and reload the page.
+    Then come back here and keep reading.
+
+    Notice how initially there are 404 errors, as the code in the "/compiled" folder doesn't exist, yet.
+    We're going to use babel to "transpile" the code in "/client/babel-src" and output it in the "/compiled" folder.
+
+    NEXT: open a new terminal tab and enter `npm run babel-hint`,
+    then follow the instructions that will print in that terminal tab.
+   -->
+
+
+  <script src="lib/react.development.js"></script>
+  <script src="lib/react-dom.development.js"></script>
+  <!-- <script src="/compiled/Image.js"></script> -->
+  <!-- <script src="/compiled/index.js"></script> -->
+
+  <!-- BABEL TODO end -->
+
+</body>
+
+</html

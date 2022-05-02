@@ -1,0 +1,31 @@
+body {
+  background-color: whitesmoke;
+  margin: 20px 40px;
+}
+
+.boilerplate-babel {
+  margin: 20px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.boilerplate-webpack {
+  margin: 20px 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bezel {
+  position: relative;
+  width: 800px;
+}
+
+.bezel-text {
+  position: absolute;
+  left: 222px;
+  top: 234px;
+  width: 434px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}

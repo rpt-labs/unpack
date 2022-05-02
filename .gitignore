@@ -1,0 +1,4 @@
+node_modules
+client/dist/bundle*
+client/dist/compiled/*
+!client/dist/compiled/.gitkeep

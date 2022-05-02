@@ -1,0 +1,7 @@
+.game {
+  top: 70px;
+  border: none;
+  overflow: hidden;
+  position: absolute;
+  left: 175px;
+}
