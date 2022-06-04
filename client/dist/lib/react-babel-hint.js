@@ -27,4 +27,4 @@ And then, your next task will be revealed!
 
 `
 
-console.log(chalk.white.bgGreen(next))
+console.log(chalk.white(next))

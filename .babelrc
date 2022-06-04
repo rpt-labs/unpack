@@ -3,9 +3,9 @@ You'll need to add the following 2 string values
 inside the presets array:
 
 1. "@babel/preset-env"
-2. "@babel/preset-react"
+2. For the second one, go back to the `react-babel` script you wrote in package.json. Take that preset and include it in the presets array below as well.
 
-babel will use these (they are already npm installed via package.json)
+Babel, which is being used as a "loader" by webpack, will use these npm packages to handle transpiling jsx into browser-readable JavaScript. (you already installed these npm packages via package.json)
 */
 
 {
